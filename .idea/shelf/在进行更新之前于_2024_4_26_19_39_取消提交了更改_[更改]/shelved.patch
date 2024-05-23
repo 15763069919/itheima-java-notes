@@ -1,0 +1,655 @@
+Index: src/practise/异常/自定义异常/demo1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/自定义异常/demo1.java b/src/practise/异常/自定义异常/demo1.java
+new file mode 100644
+--- /dev/null	(date 1714131255641)
++++ b/src/practise/异常/自定义异常/demo1.java	(date 1714131255641)
+@@ -0,0 +1,91 @@
++package practise.异常.自定义异常;
++
++import java.util.Scanner;
++
++public class demo1 {
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        GirlFrieng gf1 = new GirlFrieng();
++
++        while (true) {
++            try {
++                System.out.println("姓名");
++                gf1.setName(sc.nextLine());
++                System.out.println("年龄");
++                gf1.setAge(Integer.parseInt(sc.nextLine()));
++                //若果所有数据都是正确的，跳出循环
++                break;
++            } catch (NumberFormatException e) {
++                e.printStackTrace();
++            } catch (NameFormatException e) {//父类写在下面
++                e.printStackTrace();
++            } catch (AgeOutOfBoundsException e) {//父类写在下面
++                e.printStackTrace();
++            }
++        }
++
++
++        System.out.println(gf1);
++
++    }
++}
++
++
++class GirlFrieng {
++    private String name;
++    private int age;
++
++    public GirlFrieng() {
++    }
++
++    public GirlFrieng(String name, int age) {
++        this.name = name;
++        this.age = age;
++    }
++
++    /**
++     * 获取
++     *
++     * @return name
++     */
++    public String getName() {
++        return name;
++    }
++
++    /**
++     * 设置
++     *
++     * @param name
++     */
++    public void setName(String name)/*throws RuntimeException*/ {
++        if (name.length() < 3 || name.length() > 10) {
++            throw new NameFormatException(name + "格式有误，长度应该为3-10");
++        }
++        this.name = name;
++    }
++
++    /**
++     * 获取
++     *
++     * @return age
++     */
++    public int getAge() {
++        return age;
++    }
++
++    /**
++     * 设置
++     *
++     * @param age
++     */
++    public void setAge(int age)/*throws RuntimeException*/ {
++        if (age < 18 || age > 40) {
++            throw new AgeOutOfBoundsException(age + "超出了范围");
++        }
++        this.age = age;
++    }
++
++    public String toString() {
++        return "GirlFrieng{name = " + name + ", age = " + age + "}";
++    }
++}
+\ No newline at end of file
+Index: src/practise/异常/自定义异常/AgeOutOfBoundsException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/自定义异常/AgeOutOfBoundsException.java b/src/practise/异常/自定义异常/AgeOutOfBoundsException.java
+new file mode 100644
+--- /dev/null	(date 1714130841305)
++++ b/src/practise/异常/自定义异常/AgeOutOfBoundsException.java	(date 1714130841305)
+@@ -0,0 +1,11 @@
++package practise.异常.自定义异常;
++
++public class AgeOutOfBoundsException extends RuntimeException{
++    public AgeOutOfBoundsException() {
++    }
++
++    public AgeOutOfBoundsException(String message) {
++        super(message);
++    }
++}
++
+Index: src/practise/异常/自定义异常/NameFormatException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/自定义异常/NameFormatException.java b/src/practise/异常/自定义异常/NameFormatException.java
+new file mode 100644
+--- /dev/null	(date 1714130745325)
++++ b/src/practise/异常/自定义异常/NameFormatException.java	(date 1714130745325)
+@@ -0,0 +1,10 @@
++package practise.异常.自定义异常;
++
++public class NameFormatException extends RuntimeException{
++    public NameFormatException() {
++    }
++
++    public NameFormatException(String message) {
++        super(message);
++    }
++}
+Index: src/practise/方法引用/demo3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/方法引用/demo3.java b/src/practise/方法引用/demo3.java
+new file mode 100644
+--- /dev/null	(date 1714104435890)
++++ b/src/practise/方法引用/demo3.java	(date 1714104435890)
+@@ -0,0 +1,88 @@
++package practise.方法引用;
++
++import java.util.ArrayList;
++import java.util.Arrays;
++import java.util.Collections;
++
++public class demo3 {
++    public static void main(String[] args) {
++        ArrayList<Student1> list = new ArrayList<>();
++        Student1 s1 = new Student1("张三",23);
++        Student1 s2 = new Student1("李四",24);
++        Student1 s3 = new Student1("王五",25);
++
++        Collections.addAll(list,s1,s2,s3);
++
++       /* String[] array = list.stream().map(new Function<Student, String>() {
++            @Override
++            public String apply(Student student) {
++                return student.getName();
++            }
++        }).toArray(String[]::new);
++        System.out.println(Arrays.toString(array));*/
++
++        String[] array = list.stream().map(Student1::getName).toArray(String[]::new);
++        System.out.println(Arrays.toString(array));
++    }
++}
++class Student1 {
++    private String name;
++    private int age;
++
++
++    public Student1() {
++    }
++
++    public Student1(String str){
++        String name = str.split(",")[0];
++        int age = Integer.parseInt(str.split(",")[1]);
++        this.name = name;
++        this.age = age;
++    }
++
++    public Student1(String name, int age) {
++        this.name = name;
++        this.age = age;
++    }
++
++    /**
++     * 获取
++     * @return name
++     */
++    public String getName() {
++        return name;
++    }
++
++    /**
++     * 设置
++     * @param name
++     */
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    /**
++     * 获取
++     * @return age
++     */
++    public int getAge() {
++        return age;
++    }
++
++    @Override
++    public String toString() {
++        return "Student1{" +
++                "name='" + name + '\'' +
++                ", age=" + age +
++                '}';
++    }
++
++    /**
++     * 设置
++     * @param age
++     */
++    public void setAge(int age) {
++        this.age = age;
++    }
++
++}
+\ No newline at end of file
+Index: src/practise/方法引用/demo2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/方法引用/demo2.java b/src/practise/方法引用/demo2.java
+new file mode 100644
+--- /dev/null	(date 1714104406062)
++++ b/src/practise/方法引用/demo2.java	(date 1714104406062)
+@@ -0,0 +1,73 @@
++package practise.方法引用;
++
++import java.util.ArrayList;
++import java.util.Collections;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class demo2 {
++    public static void main(String[] args) {
++        ArrayList<String> list = new ArrayList<>();
++        Collections.addAll(list,"张三,23","李四,24","王五,25","赵六,26");
++        List<Student1> collect = list.stream().map(Student1::new).collect(Collectors.toList());
++        collect.forEach(System.out::println);
++
++
++    }
++}
++class Student{
++    private String name;
++    private int age;
++
++
++    public Student() {
++    }
++
++    public Student(String str){
++        String name = str.split(",")[0];
++        int age = Integer.parseInt(str.split(",")[1]);
++        this.name = name;
++        this.age = age;
++    }
++
++    public Student(String name, int age) {
++        this.name = name;
++        this.age = age;
++    }
++
++    /**
++     * 获取
++     * @return name
++     */
++    public String getName() {
++        return name;
++    }
++
++    /**
++     * 设置
++     * @param name
++     */
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    /**
++     * 获取
++     * @return age
++     */
++    public int getAge() {
++        return age;
++    }
++
++    /**
++     * 设置
++     * @param age
++     */
++    public void setAge(int age) {
++        this.age = age;
++    }
++
++    public String toString() {
++        return "Student{name = " + name + ", age = " + age + "}";
++    }
++}
+\ No newline at end of file
+Index: src/practise/方法引用/demo4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/方法引用/demo4.java b/src/practise/方法引用/demo4.java
+new file mode 100644
+--- /dev/null	(date 1714125862704)
++++ b/src/practise/方法引用/demo4.java	(date 1714125862704)
+@@ -0,0 +1,65 @@
++package practise.方法引用;
++
++import java.util.ArrayList;
++import java.util.Collections;
++
++public class demo4 {
++    public static void main(String[] args) {
++        ArrayList<Student2> list = new ArrayList<>();
++        Student2 s1 = new Student2("zhangsan",23);
++        Student2 s2 = new Student2("lisi",24);
++        Student2 s3 = new Student2("wangwu",25);
++
++        Collections.addAll(list,s1,s2,s3);
++//        list.stream().map(Student2::getName).
++//        list.stream().map(Student2::getAge).
++    }
++}
++class Student2{
++    private String name;
++    private int age;
++
++    public Student2() {
++    }
++
++    public Student2(String name, int age) {
++        this.name = name;
++        this.age = age;
++    }
++
++    /**
++     * 获取
++     * @return name
++     */
++    public String getName() {
++        return name;
++    }
++
++    /**
++     * 设置
++     * @param name
++     */
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    /**
++     * 获取
++     * @return age
++     */
++    public int getAge() {
++        return age;
++    }
++
++    /**
++     * 设置
++     * @param age
++     */
++    public void setAge(int age) {
++        this.age = age;
++    }
++
++    public String toString() {
++        return "Student2{name = " + name + ", age = " + age + "}";
++    }
++}
+\ No newline at end of file
+Index: src/practise/异常/捕获异常/捕获异常.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/捕获异常/捕获异常.java b/src/practise/异常/捕获异常/捕获异常.java
+new file mode 100644
+--- /dev/null	(date 1714126526428)
++++ b/src/practise/异常/捕获异常/捕获异常.java	(date 1714126526428)
+@@ -0,0 +1,27 @@
++package practise.异常.捕获异常;
++
++public class 捕获异常 {
++    public static void main(String[] args) {
++        //JVM默认处理方案：异常打印在控制台，并停止程序
++      /*  int[] arr = {1,2,3,4,5,6};
++        System.out.println(arr[10]);
++        System.out.println("看看我执行了吗？");*/
++
++
++        //捕获异常
++        //不停止程序
++        int[] arr = {1, 2, 3, 4, 5, 6};
++        try {
++            System.out.println(arr[10]);//此处吹出现了异常
++                                        //程序在此处创建了一个异常ArrayIndexOutOfBoundsException的对象
++                                        //new ArrayIndexOutOfBoundsException()
++                                        //拿着这个对象去和catch小括号中的变量做对比，看看是否变量能接收这个对象
++                                        //如果被接收，代表该异常被捕获，执行catch里面的代码
++                                        //当catch里面的代码被执行完，他会执行try……catch体系下面的代码
++        }catch(ArrayIndexOutOfBoundsException e){
++            //如果出现了
++            System.out.println("索引越界了");
++        }
++        System.out.println("看看我执行了吗？");
++    }
++}
+Index: src/practise/异常/捕获异常/灵魂四问.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/捕获异常/灵魂四问.java b/src/practise/异常/捕获异常/灵魂四问.java
+new file mode 100644
+--- /dev/null	(date 1714127153652)
++++ b/src/practise/异常/捕获异常/灵魂四问.java	(date 1714127153652)
+@@ -0,0 +1,16 @@
++package practise.异常.捕获异常;
++
++public class 灵魂四问 {
++    public static void main(String[] args) {
++        int[] arr = {1,2,3,4,5,6};
++
++        try {
++            System.out.println(arr[10]);
++            System.out.println(2/0);
++            System.out.println("看看我执行了吗1");
++        }catch(ArrayIndexOutOfBoundsException e){
++            System.out.println("索引越界了");
++        }
++        System.out.println("看看我执行了吗2");
++    }
++}
+Index: src/practise/异常/demo1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/demo1.java b/src/practise/异常/demo1.java
+new file mode 100644
+--- /dev/null	(date 1714130374951)
++++ b/src/practise/异常/demo1.java	(date 1714130374951)
+@@ -0,0 +1,89 @@
++package practise.异常;
++
++import java.util.Scanner;
++
++public class demo1 {
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        GirlFrieng gf1 = new GirlFrieng();
++
++        while (true) {
++            try {
++                gf1.setName(sc.nextLine());
++                gf1.setAge(Integer.parseInt(sc.nextLine()));
++                //若果所有数据都是正确的，跳出循环
++                break;
++            } catch (NumberFormatException e) {
++                System.out.println("年龄的格式有误，请输入数字");
++//                continue;
++            } catch (RuntimeException e) {//父类写在下面
++                System.out.println("姓名的长度或年龄的范围有误");
++//                continue;
++            }
++        }
++
++
++        System.out.println(gf1);
++
++
++    }
++}
++
++class GirlFrieng {
++    private String name;
++    private int age;
++
++    public GirlFrieng() {
++    }
++
++    public GirlFrieng(String name, int age) {
++        this.name = name;
++        this.age = age;
++    }
++
++    /**
++     * 获取
++     *
++     * @return name
++     */
++    public String getName() {
++        return name;
++    }
++
++    /**
++     * 设置
++     *
++     * @param name
++     */
++    public void setName(String name)/*throws RuntimeException*/ {
++        if (name.length() < 3 || name.length() > 10) {
++            throw new RuntimeException();
++        }
++        this.name = name;
++    }
++
++    /**
++     * 获取
++     *
++     * @return age
++     */
++    public int getAge() {
++        return age;
++    }
++
++    /**
++     * 设置
++     *
++     * @param age
++     */
++    public void setAge(int age)/*throws RuntimeException*/ {
++        if (age < 18 || age > 40) {
++            throw new RuntimeException();
++        }
++        this.age = age;
++    }
++
++    public String toString() {
++        return "GirlFrieng{name = " + name + ", age = " + age + "}";
++    }
++}
+\ No newline at end of file
+Index: src/practise/异常/Throwable成员方法/demo1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/Throwable成员方法/demo1.java b/src/practise/异常/Throwable成员方法/demo1.java
+new file mode 100644
+--- /dev/null	(date 1714128315118)
++++ b/src/practise/异常/Throwable成员方法/demo1.java	(date 1714128315118)
+@@ -0,0 +1,22 @@
++package practise.异常.Throwable成员方法;
++
++public class demo1 {
++    public static void main(String[] args) {
++        int[] arr = {1, 2, 3, 4, 5, 6};
++
++        try {
++            System.out.println(arr[10]);
++        } catch (Exception e) {
++            System.out.println(e.getMessage()); //将异常的简短描述打印在控制台
++            System.out.println(e.toString());   //将异常转为字符串打印在控制台
++            e.printStackTrace();    //仅仅是以红色的字体将异常打印在控制台，不会停止程序
++        }
++
++        System.out.println("看看我执行了吗？");
++
++        //正常输出语句
++        System.out.println(123);
++        //用来打印错误信息的输出语句
++        System.err.println(123);
++    }
++}
+Index: src/practise/异常/抛出处理/demo1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/practise/异常/抛出处理/demo1.java b/src/practise/异常/抛出处理/demo1.java
+new file mode 100644
+--- /dev/null	(date 1714129415525)
++++ b/src/practise/异常/抛出处理/demo1.java	(date 1714129415525)
+@@ -0,0 +1,48 @@
++package practise.异常.抛出处理;
++
++public class demo1 {
++    public static void main(String[] args) {
++//        int[] arr = {1, 2, 3, 4, 5};
++//        System.out.println(getMax(arr));
++
++        //空数组
++        int[] nullArr = null;
++        int max = 0;
++        //使用try catch接收异常，防止程序停止
++        try {
++            max = getMax((nullArr));
++        } catch (NullPointerException e) {
++            System.out.println("空指针异常");
++        } catch (ArrayIndexOutOfBoundsException e) {
++            System.out.println("索引越界异常");
++
++        }
++        System.out.println(max);
++
++        //长度为0的数组
++//        int[] emptyArr = {};
++//        System.out.println(emptyArr);
++    }
++
++    public static int getMax(int[] arr) /*throws NullPointerException,ArrayIndexOutOfBoundsException*/{
++        if(arr == null){
++            //手动创建一个异常对象，并把这个异常交给方法的调用者
++            //此语句会停止程序
++            throw new NullPointerException();
++        }
++        if(arr.length==0){
++            //手动创建一个异常对象，并把这个异常交给方法的调用者
++            //此语句会停止程序
++            throw new ArrayIndexOutOfBoundsException();
++        }
++
++        System.out.println("看看我执行了吗？");
++        int max = arr[0];
++        for (int i = 0; i < arr.length; i++) {
++            if (arr[i] > max) {
++                max = arr[i];
++            }
++        }
++        return max;
++    }
++}

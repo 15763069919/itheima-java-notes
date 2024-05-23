@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/practise/ArrayList/添加学生对象并遍历/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/ComprehensiveExercise/Set/doudizhu1/App.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/ComprehensiveExercise/Set/doudizhu1/src/PockerGame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/IO/comprehensiveExercises/rollCallMachineWithWeightCoefficient/names.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/IO/编码和解码/demo1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/Static/demo1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/Static/demo2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/Thread/ProducersAndConsumers/Cook.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/Thread/ThreadSafeAndSynchronised/SynchronisedCodeBlock/MyThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/lambda/dm1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/A03_uploadFiles/a.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/A03_uploadFiles/a_copy.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/A04_uploadFilesRandomFileName/a.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/A05_multiThreadUploadFiles/8c580d20ca9c4cb1b899562618270e88.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/Answer/Client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/Answer/Server.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

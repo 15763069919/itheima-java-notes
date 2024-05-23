@@ -1,0 +1,5 @@
+name=Ð¡A
+age=23
+gender=Å®
+height=167.5
+hobby=Ë¯¾õ

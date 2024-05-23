@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18451006-4e54-4ad6-853f-41ec4ebdc5c7" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/classPractise/demo13/demo13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classPractise/demo14/demo14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classPractise/demo15/demo15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classPractise/demo16/demo16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classPractise/demo17/demo17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classPractise/demo12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classPractise/demo12/demo12.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;15763069919&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/15763069919/itheima-java-notes.git&quot;,
+    &quot;accountId&quot;: &quot;97f0e990-21f0-4528-be8b-76a15adc465c&quot;
+  }
+}</component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2e7KQAF98sTEtOcyEqV0e08mmkV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Serve.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practise.IO.解压缩流.压缩流.重写.压缩文件夹.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.压缩单文件.executor&quot;: &quot;Run&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;any.rule.ignoreSwayRod&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/JAVA/IdeaCode/itheima/itheima/src/practise/networkProgram/ComprehensivePractice/A06_ThreadPoolUploadFile&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Work/JAVA/IdeaCode/itheima/itheima/src/practise/networkProgram/UDP/CommunicationMode/cleanCultureReceive.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.AGPhoneTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.APP.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.App.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Application.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.BigDecimalDemo1.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.BigDecimal成员方法.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.BigInteger常用方法.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Collection单列集合.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Collection遍历 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Constructor.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo1 (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo1 (4).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo1 (5).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Demo2网络爬取.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.GirlFriendTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Hutool爬取.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Iterator迭代器.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.List遍历.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.List集合.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.PhoneTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Receive.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SaveInfo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Send.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Serve.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.StringCompare.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ThreeWaysToGetClass.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.UserSaveToTxt.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.aa复制数组.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.chatRoom.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.cleanCultureReceive.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.cleanCultureSend.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo11 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo11 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo11.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo13 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo13.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo14 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo14 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo14.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo15.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo16.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo17.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo3 (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo3 (4).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo3 (5).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo4 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo4 (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo4 (4).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo4 (5).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo4.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo5 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo5 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo5 (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo5 (4).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo5 (5).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo5.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo7.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo9 (1).executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.demo9 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.demo9.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.dm1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.dm1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.dm2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.dm2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.getSystemTime.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.lambda表达式遍历 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.lambda表达式遍历.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.lll.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.multicastReceive.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.multicastReceive01.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.multicastReceive03.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.multicastSend.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.App.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.ComprehensiveExercise.Set.doudizhu3.APP.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.DynamicProxy.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.File.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.File.demo5.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.comprehensiveExercises.rollCallMachineWithWeightCoefficient.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.序列化流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.打印流.字符打印流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.打印流.字节打印流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.第三方jar包.HutoolIO.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.综合练习.网络爬虫.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.缓冲流.字符缓冲流.字符缓冲输出流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.解压缩流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.解压缩流.压缩流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.转换流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.IO.转换流.作用2字节流使用字符流的方法.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.ListAndMap.Prorerties.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Stream流.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ComprehensivePractise.Gift.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ComprehensivePractise.Gift2.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ComprehensivePractise.Gift4.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ComprehensivePractise.RedWars.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ComprehensivePractise.demo1.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ImplementCallableAndFuture.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ImplementsRunnable.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.InsertThread.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ProducersAndConsumers.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ThreadCommonMethod.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ThreadPool.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ThreadSafe.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.ThreadSafeAndSynchronised.SynchronizedMethod.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.daemonThreads.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.lock.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.Thread.preemptiveScheduling.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.io.输入流.FileInputStream.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.io.输入流.FileReader.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.io.输出流.FileWriter.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A02.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A02.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A02ReceptionAndFeedback.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A03_uploadFiles.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A03_uploadFiles.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A04_uploadFilesRandomFileName.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A04uploadFilesRandomFileName.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A04uploadFilesRandomFileName.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A05_multiThreadUploadFiles.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A05_multiThreadUploadFiles.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.A06_ThreadPoolUploadFile.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.Answer.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.Answer.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.multipleSendAndReceive.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.ComprehensivePractice.multipleSendAndReceive.Server.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.SendMessage.demo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.UDP.SendMessage.demo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.networkProgram.UDP.receiveMessage.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.异常.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.异常.抛出处理.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.异常.自定义异常.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.方法引用.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.方法引用.其他调用.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.方法引用.引用成员方法.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.方法引用.引用数组的构造方法.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.方法引用.引用静态方法.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.综合练习.集合进阶综合练习.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.综合练习.集合进阶综合练习.demo3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.集合.Collection单列集合.Set.TreeSet.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.集合.Map双列集合.LinkedHashMap.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.集合.Map双列集合.TreeMap.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.practise.集合.Map双列集合.TreeMap.demo2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.printWriter.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.properties读取.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.qq号校验例题.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.read方法的重载实现一次读取多个字节.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.s.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.thisTest使用举例.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.一个for循环的阶乘和计算.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.一次写一个字节数组数据.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.一次写一个字节数组的部分数据.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.二分查找.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.修改文件中的数据.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.修改文件中的数据非常规方式.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.分块查找.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.分块查找进阶.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.删除含有文件的文件夹.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.利用字节流的基本数据流一次读写一个字节数组.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.利用字节流的基本流一次拷贝一个数组.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.压缩文件夹.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.压缩文件夹2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.大文件拷贝.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.字符流基本数据流一次读写一个字符.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.字节流读取中文.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.字节缓冲流一次拷贝一个字节数组.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.字节缓冲流一次读取一个数据.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.存储字符串并遍历.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.将本地文件中GBK文件转换成UTF8文件.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.小拷贝文件.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.底层原理.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.循环读取.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.德莫.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.快速排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.快速排序自写.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.拷贝文件.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.按照指定编码写出数据.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.按要求进行排序 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.按要求进行排序 (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.按要求进行排序 (3).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.按要求进行排序 (4).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.按要求进行排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.捕获分组的练习.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.捕获异常.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.插值查找_改进版二分查找.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.插入排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.数组.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.文件加密.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.文件拷贝.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.文件拷贝一次读取多个字节.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.文件解密.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.方法重载.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.时间所有总结.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.时间计算.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.根据序号排序2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.根据序号排序TreeMap.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.正则外部捕获分组.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.添加学生对象并遍历.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.灵魂四问.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.爬楼梯.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.猴子吃桃子.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.秒杀活动.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.算法水题.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.算法水题2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.算法水题3.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.算法水题4.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.BigInteger.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.BigInteger和BigDecimal.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.BigInteger练习.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.lambda学习.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.包装类.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.时间.JDK8.Instant.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.时间.JDK8.ZoneId.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.时间.SimpleDateFormat.demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.练习.正则表达式.爬虫.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.获取随机数.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.解压文件.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.课上练习.Demo1.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.输入.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.运算符.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.键值对.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.键找值 (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.键找值.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.键盘录入.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.键盘录入学生对象.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.阶乘2.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.阶乘相加.executor&quot;: &quot;Debug&quot;,
+    &quot;附加到进程.pid 1924.executor&quot;: &quot;ProcessAttachDebug&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice\A06_ThreadPoolUploadFile" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice\A05_multiThreadUploadFiles" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice\A04uploadFilesRandomFileName" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice\A03uploadFiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\Reflect\ComprehensivePractice\SaveInfo" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice\Answer" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\src\practise\networkProgram\ComprehensivePractice\A04uploadFilesRandomFileName" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\lib\directory" />
+      <recent name="D:\Work\JAVA\IdeaCode\itheima\itheima\lib\directory\666" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="practise.networkProgram.ComprehensivePractice.A07_BS" />
+      <recent name="practise.networkProgram.UDP.CommunicationMode" />
+      <recent name="practise.IO.序列化流" />
+      <recent name="practise.IO.综合练习.修改文本的顺序" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.demo17">
+    <configuration name="demo13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classPractise.demo13.demo13" />
+      <module name="itheima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classPractise.demo14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo14 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classPractise.demo14.demo14" />
+      <module name="itheima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classPractise.demo14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classPractise.demo15.demo15" />
+      <module name="itheima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classPractise.demo15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classPractise.demo16.demo16" />
+      <module name="itheima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classPractise.demo16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classPractise.demo17.demo17" />
+      <module name="itheima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classPractise.demo17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="应用程序.demo13" />
+      <item itemvalue="应用程序.demo14 (2)" />
+      <item itemvalue="应用程序.demo15" />
+      <item itemvalue="应用程序.demo16" />
+      <item itemvalue="应用程序.demo17" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.demo17" />
+        <item itemvalue="应用程序.demo16" />
+        <item itemvalue="应用程序.demo15" />
+        <item itemvalue="应用程序.demo14 (2)" />
+        <item itemvalue="应用程序.demo13" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="18451006-4e54-4ad6-853f-41ec4ebdc5c7" name="更改" comment="" />
+      <created>1711250159844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711250159844</updated>
+      <workItem from="1711250160781" duration="2130000" />
+      <workItem from="1711252307292" duration="1364000" />
+      <workItem from="1711253949712" duration="297000" />
+      <workItem from="1711255268900" duration="6000" />
+      <workItem from="1711285471539" duration="3395000" />
+      <workItem from="1711289060441" duration="93000" />
+      <workItem from="1711289643029" duration="121000" />
+      <workItem from="1711290389022" duration="259000" />
+      <workItem from="1711352285682" duration="964000" />
+      <workItem from="1711583540358" duration="5948000" />
+      <workItem from="1711614386272" duration="2000" />
+      <workItem from="1711614513410" duration="36000" />
+      <workItem from="1711617274680" duration="1844000" />
+      <workItem from="1711628275969" duration="343000" />
+      <workItem from="1711628656451" duration="119000" />
+      <workItem from="1711857305324" duration="130000" />
+      <workItem from="1711871725828" duration="18000" />
+      <workItem from="1711872694238" duration="13000" />
+      <workItem from="1711872826114" duration="2851000" />
+      <workItem from="1711890963817" duration="571000" />
+      <workItem from="1711891549865" duration="99000" />
+      <workItem from="1711891659548" duration="294000" />
+      <workItem from="1711891967228" duration="39000" />
+      <workItem from="1711957940921" duration="1271000" />
+      <workItem from="1711959766628" duration="1816000" />
+      <workItem from="1711963418978" duration="52000" />
+      <workItem from="1711963480238" duration="119000" />
+      <workItem from="1711963607607" duration="9416000" />
+      <workItem from="1711974861649" duration="283000" />
+      <workItem from="1711977375691" duration="868000" />
+      <workItem from="1711978273562" duration="60000" />
+      <workItem from="1711978344569" duration="750000" />
+      <workItem from="1712015734176" duration="4659000" />
+      <workItem from="1712054883489" duration="622000" />
+      <workItem from="1712104216734" duration="1622000" />
+      <workItem from="1712106047830" duration="7761000" />
+      <workItem from="1712197804496" duration="51000" />
+      <workItem from="1712197865814" duration="19213000" />
+      <workItem from="1712280740153" duration="5842000" />
+      <workItem from="1712299956120" duration="1549000" />
+      <workItem from="1712301524338" duration="3498000" />
+      <workItem from="1712324211578" duration="2379000" />
+      <workItem from="1712371688042" duration="1695000" />
+      <workItem from="1712403590656" duration="2596000" />
+      <workItem from="1712454225712" duration="13865000" />
+      <workItem from="1712561032533" duration="5819000" />
+      <workItem from="1712620479011" duration="8212000" />
+      <workItem from="1712659305707" duration="5097000" />
+      <workItem from="1712794939549" duration="4874000" />
+      <workItem from="1712832230698" duration="8811000" />
+      <workItem from="1712877847719" duration="9022000" />
+      <workItem from="1713002115929" duration="3016000" />
+      <workItem from="1713009884044" duration="5431000" />
+      <workItem from="1713063526310" duration="16429000" />
+      <workItem from="1713091901820" duration="110000" />
+      <workItem from="1713092021508" duration="34000" />
+      <workItem from="1713092064182" duration="6356000" />
+      <workItem from="1713167139946" duration="990000" />
+      <workItem from="1713277871445" duration="595000" />
+      <workItem from="1713397721513" duration="2731000" />
+      <workItem from="1713497675125" duration="13439000" />
+      <workItem from="1713659941125" duration="17278000" />
+      <workItem from="1713685851165" duration="19621000" />
+      <workItem from="1713753310432" duration="7952000" />
+      <workItem from="1713792565344" duration="5705000" />
+      <workItem from="1713835297970" duration="18298000" />
+      <workItem from="1713956279890" duration="5748000" />
+      <workItem from="1713968136505" duration="889000" />
+      <workItem from="1714002097464" duration="651000" />
+      <workItem from="1714010632972" duration="637000" />
+      <workItem from="1714021289228" duration="5931000" />
+      <workItem from="1714100231242" duration="14117000" />
+      <workItem from="1714134325470" duration="5473000" />
+      <workItem from="1714183060587" duration="6240000" />
+      <workItem from="1714199949868" duration="12193000" />
+      <workItem from="1714272482009" duration="25442000" />
+      <workItem from="1714367331483" duration="8850000" />
+      <workItem from="1714381010449" duration="7886000" />
+      <workItem from="1714452071212" duration="2309000" />
+      <workItem from="1714565362753" duration="10956000" />
+      <workItem from="1714577207998" duration="2014000" />
+      <workItem from="1714626015155" duration="9086000" />
+      <workItem from="1714713098195" duration="1551000" />
+      <workItem from="1714725636508" duration="11438000" />
+      <workItem from="1714773224382" duration="12181000" />
+      <workItem from="1714816721954" duration="8987000" />
+      <workItem from="1714864572459" duration="2222000" />
+      <workItem from="1714895515785" duration="23151000" />
+      <workItem from="1714981171261" duration="3337000" />
+      <workItem from="1714992830527" duration="4080000" />
+      <workItem from="1714999987504" duration="3596000" />
+      <workItem from="1715006237266" duration="2886000" />
+      <workItem from="1715040144665" duration="10682000" />
+      <workItem from="1715146105896" duration="21013000" />
+      <workItem from="1715213069928" duration="5882000" />
+      <workItem from="1715243317542" duration="20718000" />
+      <workItem from="1715586239379" duration="3008000" />
+      <workItem from="1715819534488" duration="2522000" />
+    </task>
+    <task id="LOCAL-00001" summary="12">
+      <option name="closed" value="true" />
+      <created>1714131590946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714131590946</updated>
+    </task>
+    <task id="LOCAL-00002" summary="12">
+      <option name="closed" value="true" />
+      <created>1714131645004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714131645004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eqd">
+      <option name="closed" value="true" />
+      <created>1714133024836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714133024836</updated>
+    </task>
+    <task id="LOCAL-00004" summary="File">
+      <option name="closed" value="true" />
+      <created>1714133852784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714133852784</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714134564847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714134564847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add io">
+      <option name="closed" value="true" />
+      <created>1714577403805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714577403805</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finish io">
+      <option name="closed" value="true" />
+      <created>1714830593996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714830593996</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finish io">
+      <option name="closed" value="true" />
+      <created>1715267333705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715267333705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="865477a4-247c-4320-98e9-efa7dafe68d3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="865477a4-247c-4320-98e9-efa7dafe68d3">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/Work/JAVA/IdeaCode/itheima/itheima/src/practise" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="12" />
+    <MESSAGE value="eqd" />
+    <MESSAGE value="File" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="add io" />
+    <MESSAGE value="finish javaSE" />
+    <MESSAGE value="finish javaSE" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish javaSE" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classPractise/一个for循环的阶乘和计算.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classPractise/demo4/demo4.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classPractise/demo4/demo4.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/排序/插入排序/插入排序.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/排序/快速排序/快速排序自写.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practise/networkProgram/ComprehensivePractice/A05_multiThreadUploadFiles/MyRunnable.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/itheima$practise_networkProgram_ComprehensivePractice_A03_uploadFiles_Server.ic" NAME="practise.networkProgram.ComprehensivePractice.A03_uploadFiles.Server 覆盖结果" MODIFIED="1715245821641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>practise.networkProgram.ComprehensivePractice.A03_uploadFiles.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/itheima$practise_networkProgram_ComprehensivePractice_A05_multiThreadUploadFiles_Client.ic" NAME="practise.networkProgram.ComprehensivePractice.A05_multiThreadUploadFiles.Client 覆盖结果" MODIFIED="1715247815647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>practise.networkProgram.ComprehensivePractice.A05_multiThreadUploadFiles.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/itheima$demo2.ic" NAME="demo2 覆盖结果" MODIFIED="1713854152753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>practise.Stream流.综合练习.*</FILTER>
+    </SUITE>
+  </component>
+</project>
